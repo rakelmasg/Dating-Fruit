@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rakel.datingfruit.Respuestas_waifu">
+
+    <ImageView
+        android:id="@+id/imagenDiscoRespuestas"
+        android:layout_width="match_parent"
+        android:layout_height="659dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@raw/disco_blur" />
+
+    <ImageView
+        android:id="@+id/imgVolverRespuestas"
+        android:layout_width="59dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@raw/volver" />
+
+    <ImageView
+        android:id="@+id/imagenWaifuRespuestas"
+        android:layout_width="322dp"
+        android:layout_height="402dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="108dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@raw/pera0" />
+
+    <ProgressBar
+        android:id="@+id/progresoRespuestas"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="153dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="32dp"
+        android:max="100"
+        android:progressDrawable="@drawable/custom_progress_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/corazonRespuestas"
+        android:layout_width="53dp"
+        android:layout_height="57dp"
+        android:layout_marginRight="124dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/progresoRespuestas"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@raw/heart" />
+
+    <ImageView
+        android:id="@+id/imgRespuesta1"
+        android:layout_width="408dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="265dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imagenWaifuRespuestas"
+        app:srcCompat="@raw/opcion" />
+
+    <TextView
+        android:id="@+id/respuesta1"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="281dp"
+        android:textColor="@color/colorTexto"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imagenWaifuRespuestas" />
+
+    <ImageView
+        android:id="@+id/imgRespuesta2"
+        android:layout_width="408dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="31dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/respuesta1"
+        app:srcCompat="@raw/opcion"/>
+
+    <TextView
+        android:id="@+id/respuesta2"
+        android:layout_width="350dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="45dp"
+        android:textColor="@color/colorTexto"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/respuesta1" />
+
+
+    <ImageView
+        android:id="@+id/imgRespuesta3"
+        android:layout_width="408dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="31dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/respuesta2"
+        app:srcCompat="@raw/opcion"/>
+
+
+    <TextView
+        android:id="@+id/respuesta3"
+        android:layout_width="350dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="45dp"
+        android:textColor="@color/colorTexto"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/respuesta2" />
+
+
+</android.support.constraint.ConstraintLayout>

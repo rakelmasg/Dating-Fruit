@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rakel.datingfruit.Creditos">
+
+    <ImageView
+        android:id="@+id/imagenFondoCreditos"
+        android:layout_width="match_parent"
+        android:layout_height="659dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@raw/cuadro_creditos" />
+
+    <TextView
+        android:id="@+id/creditos"
+        android:layout_width="299dp"
+        android:layout_height="540dp"
+        android:layout_marginLeft="56dp"
+
+        android:layout_marginTop="32dp"
+        android:text="FOTOGRAFÍAS ORIGINALES
+\n-Frutas:
+\nJon Gould - Attribution noncomercial
+\nEwan Munro - CC Attribution
+
+\n\n-Escenarios:
+\nWikipedia Commons - CC Attribution
+
+\n\nMÚSICA
+\n-Discoteca:
+\n'Calm the fuck down' by Broke For Free - CC Attribution
+
+\n\n-Exterior:
+\n'Readers! Do You Read?' by Chris Zabriskie - CC Attribution
+
+\n\n-Menú principal:
+\n'Epic Song' by BoxCat Games - CC Attribution
+
+\n\n-Finales malos:
+\n'Red Roses Love(Part 2)(ID 393)' by Lobo Loco - CC Attribution
+
+\n\n-Final bueno:
+\n'Meerkats in Love' by Jesse Spillane"
+        android:textColor="@color/colorTexto"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgVolverCreditos"
+        android:layout_width="59dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="176dp"
+        android:layout_marginTop="572dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@raw/volver" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rakel.datingfruit.Dialogo_pineapple">
+
+    <ImageView
+        android:id="@+id/imagenDiscoFuera"
+        android:layout_width="match_parent"
+        android:layout_height="659dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@raw/puerta_disco" />
+
+    <ImageView
+        android:id="@+id/imagenPineapple"
+        android:layout_width="403dp"
+        android:layout_height="470dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imagenDiscoDialogo"
+        app:srcCompat="@raw/pineapple" />
+
+    <ImageView
+        android:id="@+id/imagenDialogoPineapple"
+        android:layout_width="403dp"
+        android:layout_height="234dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="424dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@raw/cuadro" />
+
+    <TextView
+        android:id="@+id/frasePineapple"
+        android:layout_width="323dp"
+        android:layout_height="132dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="500dp"
+        android:textColor="@color/colorTexto"
+        android:textSize="20dp"
+        android:text="Piñahán:\n- Cómo va todo, brah?"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nombrePineapple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="432dp"
+        android:textColor="@color/colorTexto"
+        android:text="Piñahán"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
